@@ -39,3 +39,8 @@ Inspired from [Bootstrap Made](https://bootstrapmade.com/iportfolio-bootstrap-po
     `DocumentRoot /home/juyel/www` then this command `sudo a2ensite 000-default.conf` and `sudo a2enmod rewrite`
     finally `sudo systemctl restart apache2`** 
 
+
+
+## **Some Linux Basic Command.**
+1. Upload file from local pc to server `scp -r /path/to/my/files root@:0.0.0.0:/path/on/my/server`
+2. unzip a zip file first `sudo apt install unzip` then `unzip test.zip`
